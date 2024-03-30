@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Simplification</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw/dist/leaflet.draw.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body, html { height: 100%; margin: 0; }
+        #mapid { height: 90vh; }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Draw and Simplify Polylines</h1>
+        <p>Draw a polyline on the map and click on "Simplify Line" to simplify it.</p>
+        <button id="simplify-btn" class="btn btn-primary mb-2">Simplify Line</button>
+        <button id="delete-simplified-btn" class="btn btn-warning mb-2">Delete Simplified Line</button> <!-- Delete button -->
+        <div id="mapid"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw/dist/leaflet.draw.js"></script>
+    <script src="https://unpkg.com/@turf/turf"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
