@@ -1,7 +1,5 @@
 # ENGO551_Lab6
 
-# Lab 6 - Line Simplification
-
 ## Overview
 
 This lab focuses on implementing line simplification in a web mapping application using Turf.js. Users can draw polylines on the map, and with the click of a button, see a simplified version of the polyline they drew. This simplified polyline is displayed in a different color for clear differentiation. The project aims to demonstrate the practical application of line simplification algorithms in enhancing map visualization and interaction.
